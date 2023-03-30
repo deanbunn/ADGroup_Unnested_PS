@@ -1,8 +1,8 @@
 ## AD Group Unnested Syncs
 
-A PowerShell solution for syncing unnested AD group membership with AD groups that nested memberships. 
+A PowerShell solution for syncing unnested AD group membership with other AD groups that have nested group memberships. 
 
-Upon first run, the script will create the config.json file used to store the settings. Edit the file to fit your environment. 
+Upon first run, the script will create the config.json file used to store the settings. Edit the file to fit your environment. The group names in the config file are only there for ease of reference when adding or removing groups.  
 
 Currently, the AD groups being sync'd are located in a child domain and the user accounts are located in the parent domain.
 
